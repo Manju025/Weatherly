@@ -3,7 +3,7 @@
 A modern, responsive weather application built with React that provides real-time weather information, including current conditions, 5-day forecasts, and dynamic backgrounds based on weather conditions. Get accurate weather updates for any location worldwide with an intuitive and visually appealing interface.
 
 ### Welcome Page
-[https://drive.google.com/file/d/1jpistzoMUGBjFGHTOfK6JdiRyJ0qPKxk/view?usp=sharing]
+![[Preview](https://drive.google.com/file/d/1jpistzoMUGBjFGHTOfK6JdiRyJ0qPKxk/view?usp=sharing)]
 
 ## Features
 
