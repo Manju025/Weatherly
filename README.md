@@ -2,10 +2,14 @@
 
 A modern, responsive weather application built with React that provides real-time weather information, including current conditions, 5-day forecasts, and dynamic backgrounds based on weather conditions. Get accurate weather updates for any location worldwide with an intuitive and visually appealing interface.
 
-###Screenshots:
+![[Here the Live](https://weatherly-manju.netlify.app/)]
+
+### Screenshots:
+
 <img src = "Screenshots/Screenshot 2025-12-01 153952.png">
 
 <img src = "Screenshots/Screenshot 2025-12-01 154024.png">
+
 ## Features
 
 - **Real-Time Weather Data**: Fetches live weather information using WeatherAPI.
@@ -54,10 +58,15 @@ Before running this project, make sure you have the following installed:
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add your WeatherAPI key:
-   ```
-   REACT_APP_WEATHER_API_KEY=your_api_key_here
-   ```
+3. Add your WeatherAPI Key:
+
+   Go to /src/components/Hero/index.js and edit the line:
+   https://api.weatherapi.com/v1/current.jsonkey=< Paste your API key>&q=${locationInput}
+   and
+   https://api.weatherapi.com/v1/forecast.json?key=< Paste your API key>&q=${locationInput}&days=5
+
+   for example:
+   https://api.weatherapi.com/v1/current.jsonkey=1234567890987654321&q=${locationInput}
 
 ## Usage
 
@@ -131,10 +140,6 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Author
 
 **Manjundhar A**
@@ -146,7 +151,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Weather data provided by [WeatherAPI](https://www.weatherapi.com/).
 - Icons from [React Icons](https://react-icons.github.io/react-icons/).
-- Animations powered by [Lottie](https://lottiefiles.com/).
 
 ## Learn More
 
