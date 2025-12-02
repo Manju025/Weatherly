@@ -2,7 +2,7 @@
 
 A modern, responsive weather application built with React that provides real-time weather information, including current conditions, 5-day forecasts, and dynamic backgrounds based on weather conditions. Get accurate weather updates for any location worldwide with an intuitive and visually appealing interface.
 
-![[Here the Live](https://weatherly-manju.netlify.app/)]
+[Here the Live(https://weatherly-manju.netlify.app/)]
 
 ### Screenshots:
 
