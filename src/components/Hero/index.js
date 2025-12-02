@@ -173,7 +173,7 @@ class Hero extends Component {
             </div>
           </div>
         )}
-        {this.renderForecast()}
+        <div className="forecast-box">{this.renderForecast()}</div>
       </>
     );
   };
