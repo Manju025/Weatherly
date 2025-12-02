@@ -147,7 +147,9 @@ class Hero extends Component {
                   {weatherData.current.condition.text}
                 </p>
               </div>
-              <h1 className="feels-p">🌡️{weatherData.current.feelslike_c}°C</h1>
+              <h1 className="feels-p">
+                🌡️{weatherData.current.feelslike_c}°C Feels Like
+              </h1>
             </div>
             <div className="cards">
               <div className="card">
