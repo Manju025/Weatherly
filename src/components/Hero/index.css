@@ -313,16 +313,32 @@
 }
 
 .footer-p {
-  color: rgba(222, 236, 248, 0.88);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 10px;
-  animation: nameShaker 1s infinite ease;
+    font-size: 18px;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #555555 25%,
+    #2f2e2e 50%,
+    #555555 75%,
+    #ffffff 100%
+    );
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    margin: 10px;
+    background-size: 300% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: shine 3s linear infinite;
 }
 
-.footer-p:hover {
-    animation: none;
-    animation-delay: 3s;
+@keyframes shine {
+  to {
+    background-position: -300% center;
+  }
 }
+
 
 @keyframes nameShaker {
     0% { 
