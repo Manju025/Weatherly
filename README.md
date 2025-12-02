@@ -2,7 +2,8 @@
 
 A modern, responsive weather application built with React that provides real-time weather information, including current conditions, 5-day forecasts, and dynamic backgrounds based on weather conditions. Get accurate weather updates for any location worldwide with an intuitive and visually appealing interface.
 
-![Weatherly Demo](https://via.placeholder.com/800x400?text=Weatherly+Demo+Screenshot) <!-- Replace with actual screenshot -->
+### Welcome Page
+[https://drive.google.com/file/d/1jpistzoMUGBjFGHTOfK6JdiRyJ0qPKxk/view?usp=sharing]
 
 ## Features
 
